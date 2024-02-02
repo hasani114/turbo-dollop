@@ -35,4 +35,4 @@ def Hasan():
 
 @app.route("/Account")
 def Account():
-    return "Account Endpoint"
+    return "Account Endpoint from AWS"
