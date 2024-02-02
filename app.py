@@ -27,7 +27,7 @@ data = { "users" : [
 
 @app.route("/")
 def hello_world():
-    return render_template("index.html", title="Hello Hasan")
+    return render_template("index.html", title="Hello Hasan from AWS")
 
 @app.route("/Profile", methods=["POST", "GET"])
 def Hasan():
